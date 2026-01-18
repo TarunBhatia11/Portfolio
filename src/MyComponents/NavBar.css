@@ -1,0 +1,72 @@
+.navbar-component{
+    margin: 0 auto;
+    width: min(1300px, 95%);
+    position: fixed;
+    z-index: 1000;
+    min-height: 50px;
+    color: white;
+    background-color: darkgray;
+    filter: blur();
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  
+    /* Optional styling */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    
+}
+
+.section-portfolio{
+    margin: 2px 30px 2px 30px;
+}
+
+.section-ho-ab-pr-co{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+    min-width: 500px;
+    gap: 30px;
+}
+
+.section-ho-ab-pr-co a{
+    color: black;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 12px;
+  
+    transition: color 0.3s ease;
+}
+
+.section-ho-ab-pr-co a::after {
+  content: "";
+  position: absolute;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  background: #4877ee;
+  border-radius: 50%;
+
+  transition: width 0.3s ease;
+}
+
+.section-ho-ab-pr-co a:hover {
+  color: #4877ee;
+}
+
+.section-ho-ab-pr-co a:hover::after {
+  width: 100%;
+}

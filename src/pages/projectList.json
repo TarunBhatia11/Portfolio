@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Slack Connect",
+    "description": "A real-time communication platform featuring workspace creation, channel-based messaging, and live presence indicators. Implemented socket-based updates for instant message delivery and secure JWT-based user authentication.",
+    "tech": ["React", "Node.js", "Socket.io", "MongoDB", "Redux Toolkit"],
+    "github": "https://github.com/TarunBhatia11/slack-connect",
+    "demo": "https://github.com/TarunBhatia11/slack-connect",
+    "iconKey": "Layers"
+  },
+  {
+    "title": "AirSona-An AI Driven AQI Solution",
+    "description": "An intelligent environmental monitoring system that leverages machine learning to predict Air Quality Index (AQI). Features interactive heatmaps and historical data visualization to help users track pollution trends in real-time.",
+    "tech": ["React", "Python", "Flask", "Chart.js", "OpenWeather API"],
+    "github": "https://github.com/TarunBhatia11/airsona",
+    "demo": "https://airsonaapi.onrender.com/",
+    "iconKey": "Cpu"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A modern, high-performance developer portfolio built with a focus on UX and accessibility. Features a mobile-first responsive design, smooth scroll animations, and a centralized JSON-driven data architecture.",
+    "tech": ["React.js", "Lucide Icons", "Vite", "CSS Grid", "Framer Motion"],
+    "github": "https://github.com/TarunBhatia11/portfolio",
+    "demo": "https://tarunbhatia.netlify.app",
+    "iconKey": "Code2"
+  },
+  {
+    "title": "VisPro-Visual Product Matcher",
+    "description": "An AI-powered computer vision tool that allows users to upload images to find matching products in a database. Utilizes image processing algorithms to identify key features and suggest similar retail items.",
+    "tech": ["React", "TensorFlow.js", "Node.js", "Express", "Cloudinary"],
+    "github": "https://github.com/TarunBhatia11/visual-product-matcher",
+    "demo": "https://visualproductmatcher.netlify.app/",
+    "iconKey": "Layers"
+  },
+  {
+    "title": "Distributor-Retailer Management System",
+    "description": "A comprehensive B2B supply chain solution to manage inventory, orders, and billing between distributors and retailers. Includes an automated dashboard for low-stock alerts and transaction history tracking.",
+    "tech": ["React", "Node.js", "MySQL", "Material UI", "Express"],
+    "github": "https://github.com/TarunBhatia11/drm-system",
+    "demo": "https://drm-management.netlify.app",
+    "iconKey": "Cpu"
+  },
+  {
+    "title": "American Sign Language Detection System",
+    "description": "A deep learning project designed to bridge communication gaps by translating ASL hand gestures into text in real-time. Features camera integration and a trained neural network for high-accuracy gesture recognition.",
+    "tech": ["React", "OpenCV", "Python", "Keras", "Webcam API"],
+    "github": "https://github.com/TarunBhatia11/asl-detection",
+    "demo": "https://asl-translator.netlify.app",
+    "iconKey": "Code2"
+  },
+  {
+    "title": "CRUD Operations System",
+    "description": "A robust administrative dashboard for managing structured data. Features server-side validation, advanced filtering, search functionality, and a responsive UI for seamless record handling across devices.",
+    "tech": ["React", "MongoDB", "Express", "Node.js", "Tailwind CSS"],
+    "github": "https://github.com/TarunBhatia11/crud-system",
+    "demo": "https://crud-admin-demo.netlify.app",
+    "iconKey": "Layers"
+  },
+  {
+    "title": "Weather Dashboard",
+    "description": "A sleek weather application providing accurate 7-day forecasts and atmospheric insights. Built with a dynamic UI that adapts its color theme and background imagery based on current local weather conditions.",
+    "tech": ["JavaScript", "React", "REST API", "OpenWeather", "GeoLocation API"],
+    "github": "https://github.com/TarunBhatia11/weather-dash",
+    "demo": "https://weather-updates.netlify.app",
+    "iconKey": "Cpu"
+  }
+]
